@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">One Rep Max</string>
+    <string name="label_lbs">lbs</string>
+    <string name="label_rm_record">1 RM Record</string>
+    <string name="axis_label_lbs">%1$d lbs</string>
+    <string name="cd_nav_back">Back</string>
+    <string name="action_try_again">Try Again</string>
+    <string name="empty_message">No data</string>
+    <string name="error_message">Unable to load data</string>
+</resources>
