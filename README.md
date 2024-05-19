@@ -1,3 +1,5 @@
+<img src="/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp">
+
 # One Rep Max
 
 A sample application that given a set of data for historical workouts, will calculate the theoretical one-rep max using the Brzycki formula.
