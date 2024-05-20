@@ -24,6 +24,19 @@ object Utils {
 
     fun calculateOneRepMax(reps: Int, weight: Int): Int {
         // Brzycki formula
-        return (weight * (36.0 / (37.0 - reps))).roundToInt()
+        // Prevent division by zero or negative reps
+        return when {
+            reps <= 0 -> {
+                0
+            }
+
+            reps >= 37 -> {
+                weight
+            }
+
+            else -> {
+                (weight * (36.0 / (37.0 - reps))).roundToInt()
+            }
+        }
     }
 }
